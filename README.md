@@ -19,6 +19,7 @@ It comes with a dark UI, numeric and operator buttons, and basic scientific func
 
 ## 📂 Project Structure
 
+```bash
 project-root/
 ├── index.html        # Main page
 ├── calc.css          # Styles (CSS)
