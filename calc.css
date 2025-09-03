@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'sahel';
+    src: url("fonts/Sahel.woff") format("woff"),
+	url("fonts/Sahel.woff2") format("woff2")
+}
+*{
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+	background-color: #1a1b26;
+	font-family: 'sahel';
+}
+
+#output {
+	color: #a5a5a5;
+	max-width: 485px;
+	width: 100%;
+	height: 66px;
+	font-size: 35px;
+	border-radius: 5px;
+	text-align: right;
+	padding: 0px 15px;
+	background-color: #1e1f26;
+	border: 3px solid #1e1f26;
+	box-shadow: 0 -15px 15px rgb(255 255 255 / 0%), inset 0 -15px 15px rgb(255 255 255 / 0%), 0 15px 15px rgb(0 0 0 / 26%), inset 0 6px 15px rgb(0 0 0 / 55%);
+}
+
+#buttons {
+	margin-top: 15px;
+}
+
+.button {
+	color: #959595;
+	text-align: center;
+	line-height: 70px;
+	display: inline-block;
+	background-color: #2a322b;
+	height: 70px;
+    border-radius: 20px 0;
+	max-width: 580px;
+	width: 16.6%;
+	font-size: 25px;
+	margin-right: -4.6px;
+	cursor: pointer;
+	border: 1px solid #1e1f26;
+    user-select: none;
+	box-shadow: 0 0 10px black 
+}
+
+
+.button:active {
+	background-color: #262424;
+	box-shadow: 0px 2px 13px -1px #000;
+	color: darkkhaki;
+}
+
+.number {
+	background-color: #262424;
+}
+
+.number:active {
+	background-color: #25262c;
+	box-shadow: 0px 2px 13px -1px #000;
+	color: darkkhaki;
+}
+
+#zero {
+	width: 33.2%;
+}
+#radians, #degrees {
+	width: 33.2%;
+}
+
+#equals,#backspace,#clear {
+	background-color: #252e2c;
+}
+
+
+#backspace:active {
+	background-color: #262424;
+	box-shadow: 0px 2px 13px -1px #000;
+	color: darkkhaki;
+}
+
+#clear:active {
+	background-color: #262424;
+	box-shadow: 0px 2px 13px -1px #000;
+	color: darkkhaki;
+}
+
+#radians:hover,#degrees:hover {
+	background-color: #252e2c;
+}
